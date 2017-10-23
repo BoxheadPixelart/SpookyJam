@@ -55,7 +55,7 @@ if (CanSpawn = true and CurrentNote = 8) {
 	CanSpawn = false; 
 	alarm[0] = eighth
 	instance_create_depth(x,y,10,Arrow_obj)
-	audio_play_sound(Beep,0,false);
+	//audio_play_sound(Beep,0,false);
 	CurrentNote += 1; 
 }
 if (CanSpawn = true and CurrentNote = 9) {

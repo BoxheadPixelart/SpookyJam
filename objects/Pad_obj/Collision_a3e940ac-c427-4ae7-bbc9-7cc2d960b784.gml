@@ -4,19 +4,35 @@
 		audio_play_sound(Beep,0,false); 
 		image_xscale = 4
 		image_yscale = 4
+		other.IsPressed = true;
+		Skeleton_obj.image_xscale = 1.2; 
+		Skeleton_obj.image_yscale = 1.2;
+		Skeleton_obj.image_angle += 36; 
 	}
 	if (keyboard_check_pressed(vk_left) and other.image_angle = 180) {
 		audio_play_sound(Beep,0,false); 
 		image_xscale = 4
 		image_yscale = 4
+		other.IsPressed = true;
+		Skeleton_obj.image_xscale = 1.2; 
+		Skeleton_obj.image_yscale = 1.2; 
+		Skeleton_obj.image_angle += 36; 
 	}
 	if ( keyboard_check_pressed(vk_down)  and other.image_angle = 270) {
 		audio_play_sound(Beep,0,false); 
 		image_xscale = 4
 		image_yscale = 4
+		other.IsPressed = true;
+		Skeleton_obj.image_xscale = 1.2; 
+		Skeleton_obj.image_yscale = 1.2; 
+		Skeleton_obj.image_angle += 36; 
 	}
 	if (keyboard_check_pressed(vk_up)  and other.image_angle = 90) {
 		audio_play_sound(Beep,0,false); 
 		image_xscale = 4
 		image_yscale = 4
+		other.IsPressed = true;
+		Skeleton_obj.image_xscale = 1.2; 
+		Skeleton_obj.image_yscale = 1.2; 
+		Skeleton_obj.image_angle += 36; 
 	}

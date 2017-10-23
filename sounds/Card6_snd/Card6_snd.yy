@@ -1,8 +1,8 @@
 {
-    "id": "c8dd2964-1137-41f1-ab46-df92dfc4b527",
+    "id": "3bcb6a85-d5c2-4a15-95ff-f75de3dff261",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "Card1_snd",
+    "name": "Card6_snd",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

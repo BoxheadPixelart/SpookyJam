@@ -26,6 +26,11 @@ X1 = x
 Y1 = y
 X2 = Pad_obj.x
 Y2 = Pad_obj.y
+//
 Dist = point_distance(X1,Y1,X2,Y2)
 Delay = 180; 
 Speed = Dist/Delay
+//States
+IsDancing = true; 
+IsPicking = false; 
+IsWalking = false; 

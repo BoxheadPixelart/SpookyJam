@@ -3,3 +3,4 @@
 speed = NoteManager.Speed; 
 direction = 0; 
 image_angle = choose(0,90,180,270);
+IsPressed = false; 
